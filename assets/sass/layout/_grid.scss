@@ -1,0 +1,13 @@
+.container {
+  max-width    : 968px;
+  margin-left  : $mb-1-5;
+  margin-right : $mb-1-5;
+}
+
+.grid {
+  display : grid;
+}
+
+.main {
+  overflow : hidden; /*For animation*/
+}
