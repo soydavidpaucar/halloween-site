@@ -1,4 +1,4 @@
-$header-height     : 3.5rem;
+$header-height     : 5.6rem;
 
 /*===== COLORS =====*/
 $hue               : 14;
@@ -12,23 +12,23 @@ $container-color   : linear-gradient(136deg, hsl(104, 28%, 35%) 0%, hsl(58, 28%,
 
 /*===== FONTS & TYPOGRAPHY =====*/
 $body-font         : "Poppins", sans-serif;
-$biggest-font-size : 2rem;
-$h1-font-size      : 1.5rem;
-$h2-font-size      : 1.25rem;
-$h3-font-size      : 1rem;
-$normal-font-size  : .938rem;
-$small-font-size   : .813rem;
-$smaller-font-size : .75rem;
+$biggest-font-size : 3.2rem;
+$h1-font-size      : 2.4rem;
+$h2-font-size      : 2rem;
+$h3-font-size      : 1.6rem;
+$normal-font-size  : 1.5rem;
+$small-font-size   : 1.4rem;
+$smaller-font-size : 1.2rem;
 
 /*===== RESPONSIVE TYPOGRAPHY =====*/
 @media screen and (min-width : 992px) {
-  $biggest-font-size : 4rem;
-  $h1-font-size      : 2.25rem;
-  $h2-font-size      : 1.5rem;
-  $h3-font-size      : 1.25rem;
-  $normal-font-size  : 1rem;
-  $small-font-size   : .875rem;
-  $smaller-font-size : .813rem;
+  $biggest-font-size : 6.4rem;
+  $h1-font-size      : 3.6rem;
+  $h2-font-size      : 2.4rem;
+  $h3-font-size      : 2rem;
+  $normal-font-size  : 1.6rem;
+  $small-font-size   : 1.4rem;
+  $smaller-font-size : 1.3rem;
 }
 
 /*===== FONT WEIGHT =====*/
@@ -37,13 +37,13 @@ $font-semi-bold    : 600;
 $font-black        : 900;
 
 /*===== BOTTOM MARGINS =====*/
-$mb-0-25           : .25rem;
-$mb-0-5            : .5rem;
-$mb-0-75           : .75rem;
-$mb-1              : 1rem;
-$mb-1-5            : 1.5rem;
-$mb-2              : 2rem;
-$mb-2-5            : 2.5rem;
+$mb-0-25           : .4rem;
+$mb-0-5            : .8rem;
+$mb-0-75           : 1.2rem;
+$mb-1              : 1.6rem;
+$mb-1-5            : 3.8rem;
+$mb-2              : 3.2rem;
+$mb-2-5            : 4rem;
 
 /*===== Z-INDEX =====*/
 $z-tooltip         : 10;
