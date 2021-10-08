@@ -1,0 +1,39 @@
+.scrollup {
+  background    : $container-color;
+  border-radius : .4rem;
+  bottom        : -20%;
+  display       : inline-flex;
+  opacity       : .8;
+  padding       : .48rem;
+  position      : fixed;
+  right         : 1.6rem;
+  transition    : .4s;
+  z-index       : 1;
+  
+  &__icon {
+	fill   : $title-color;
+	height : 2rem;
+	width  : 2rem;
+  }
+  
+  &:hover {
+	background : $container-color;
+	opacity    : 1;
+  }
+}
+
+.show-scroll {
+  bottom : 4.8rem;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  background : #413E3E;
+  width      : 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background    : #272525;
+  border-radius : .8rem;
+}
+
