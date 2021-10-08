@@ -1,0 +1,25 @@
+.newsletter {
+  &__description {
+	margin-bottom : $mb-1-5;
+	text-align    : center;
+  }
+  
+  &__form {
+	background      : $container-color;
+	border-radius   : 1.2rem;
+	display         : flex;
+	justify-content : space-between;
+	padding         : 1.6rem;
+  }
+  
+  &__input {
+	background : none;
+	color      : $title-color;
+	padding    : 0 .8rem;
+	width      : 70%;
+	
+	&::placeholder {
+	  color : $text-color;
+	}
+  }
+}
