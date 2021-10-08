@@ -1,0 +1,98 @@
+.footer {
+  overflow : hidden;
+  position : relative;
+  
+  &__img-one,
+  &__img-two {
+	position   : absolute;
+	transition : .3s;
+  }
+  
+  &__img-one {
+	right : -3.6rem;
+	top   : 9.6rem;
+	width : 100px;
+	
+  }
+  
+  &__img-two {
+	bottom : 6.4rem;
+	right  : 6.4rem;
+	width  : 150px;
+  }
+  
+  &__img-one:hover,
+  &__img-two:hover {
+	transform : translateY(-.8rem);
+  }
+  
+  &__container {
+	row-gap : 3.2rem;
+  }
+  
+  &__logo {
+	align-items   : center;
+	color         : $title-color;
+	column-gap    : .8rem;
+	display       : flex;
+	font-weight   : $font-medium;
+	margin-bottom : $mb-1;
+	
+	&-img {
+	  width : 20px;
+	}
+  }
+  
+  &__description {
+	margin-bottom : $mb-2-5;
+  }
+  
+  &__social {
+	column-gap : 1.2rem;
+	display    : flex;
+	
+	&-link {
+	  background    : $container-color;
+	  border-radius : .4rem;
+	  display       : inline-flex;
+	  padding       : .4rem;
+	  
+	  & svg {
+		fill   : $title-color;
+		height : 1.4rem;
+		width  : 1.4rem;
+	  }
+	  
+	  &:hover {
+		background : $body-color;
+	  }
+	}
+  }
+  
+  &__title {
+	font-size     : $h3-font-size;
+	margin-bottom : $mb-1;
+  }
+  
+  &__links {
+	display : grid;
+	row-gap : .6rem;
+  }
+  
+  &__link {
+	color      : $text-color;
+	font-size  : $small-font-size;
+	transition : .3s;
+	
+	&:hover {
+	  color : $title-color;
+	}
+  }
+  
+  &__copy {
+	display    : block;
+	font-size  : $smaller-font-size;
+	margin-top : 7.2rem;
+	text-align : center;
+  }
+}
