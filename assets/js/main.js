@@ -48,3 +48,11 @@ const scrollHeader = () => {
 	}
 };
 window.addEventListener('scroll', scrollHeader);
+
+/*===== NEW SWIPPER =====*/
+let newSwiper = new Swiper('.new-swiper', {
+	centeredSlides: true,
+	slidesPerView: 'auto',
+	spaceBetween: 16,
+	loop: true,
+});
