@@ -7,16 +7,26 @@ $first-color-alt   : hsl($hue, 91%, 50%);
 $title-color       : hsl($hue, 4%, 100%);
 $text-color        : hsl($hue, 4%, 85%);
 $text-color-light  : hsl($hue, 4%, 55%);
-$body-color        : linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
-$container-color   : linear-gradient(136deg, hsl(104, 28%, 35%) 0%, hsl(58, 28%, 35%) 100%);
+
+/* Green gradient */
+/*$body-color        : linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
+$container-color   : linear-gradient(136deg, hsl(104, 28%, 35%) 0%, hsl(58, 28%, 35%) 100%);*/
+
+/* Red gradient */
+$body-color        : linear-gradient(90deg, hsl(360, 28%, 40%) 0%, hsl(18, 28%, 40%) 100%);
+$container-color   : linear-gradient(136deg, hsl(360, 28%, 35%) 0%, hsl(18, 28%, 35%) 100%);
+
+/* Black solid */
+/*$body-color        : hsl(30, 8%, 8%);
+$container-color   : hsl(30, 8%, 10%);*/
 
 /*===== FONTS & TYPOGRAPHY =====*/
 $body-font         : "Poppins", sans-serif;
-$biggest-font-size : 3.2rem;
-$h1-font-size      : 2.4rem;
-$h2-font-size      : 2rem;
-$h3-font-size      : 1.6rem;
-$normal-font-size  : 1.5rem;
+$biggest-font-size : 6.4rem;
+$h1-font-size      : 3.6rem;
+$h2-font-size      : 2.4rem;
+$h3-font-size      : 2rem;
+$normal-font-size  : 1.6rem;
 $small-font-size   : 1.4rem;
 $smaller-font-size : 1.2rem;
 
