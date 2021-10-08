@@ -1,0 +1,282 @@
+/* For small devices */
+@media screen and (max-width : 320px) {
+  .container {
+	margin-left  : $mb-1;
+	margin-right : $mb-1;
+  }
+  
+  .home {
+	&__img {
+	  height : 200px;
+	}
+	
+	&__buttons {
+	  flex-direction : column;
+	  row-gap        : 1.6rem;
+	  width          : max-content;
+	}
+  }
+  
+  .category__container,
+  .trick__container {
+	grid-template-columns : .8fr;
+	justify-content       : center;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width : 576px) {
+  .about__container {
+	grid-template-columns : .8fr;
+	justify-content       : center;
+  }
+  .newsletter {
+	&__container {
+	  display               : grid;
+	  grid-template-columns : .7fr;
+	  justify-content       : center;
+	}
+	
+	&__description {
+	  padding : 0 4.8rem;
+	}
+  }
+}
+
+@media screen and (min-width : 768px) {
+  body {
+	margin : 0;
+  }
+  .section {
+	padding : 11.2rem 0 3.2rem;
+  }
+  
+  .nav {
+	height : calc($header-height + 2.4rem);
+	
+	&__img,
+	&__close,
+	&__toggle {
+	  display : none;
+	}
+	
+	&__list {
+	  column-gap     : 4.8rem;
+	  flex-direction : row;
+	}
+	
+	&__link {
+	  font-weight    : initial;
+	  text-transform : initial;
+	}
+  }
+  
+  .home {
+	&__content {
+	  padding               : 12.8rem 0 3.2rem;
+	  grid-template-columns : repeat(2, 1fr);
+	  gap                   : 6.4rem;
+	}
+	
+	&__img {
+	  height : 300px;
+	}
+  }
+  
+  .swiper-pagination {
+	margin-top : $mb-2;
+  }
+  
+  .category__container {
+	grid-template-columns : repeat(3, 200px);
+	justify-content       : center;
+  }
+  
+  .about {
+	&__container {
+	  align-items           : center;
+	  grid-template-columns : repeat(2, 1fr);
+	}
+	
+	&__title,
+	&__data {
+	  text-align : initial;
+	}
+	
+	&__img {
+	  width : 250px;
+	}
+  }
+  
+  .trick__container {
+	gap                   : 3.2rem;
+	grid-template-columns : repeat(3, 200px);
+	justify-content       : center;
+  }
+  
+  .discount__container {
+	align-items           : center;
+	border-radius         : 4.8rem;
+	column-gap            : 4.8rem;
+	grid-template-columns : repeat(2, max-content);
+	justify-content       : center;
+	padding               : 4.8rem 0;
+  }
+  
+  .discount__img {
+	order : -1;
+	width : 350px;
+  }
+  
+  .discount__data {
+	padding-right : 9.6rem;
+  }
+  
+  .newsletter__container {
+	grid-template-columns : .5fr;
+  }
+  
+  .footer__container {
+	column-gap            : 1.6rem;
+	grid-template-columns : repeat(4, 1fr);
+	justify-items         : center;
+  }
+  
+  .footer__img-two {
+	bottom : 0;
+	left   : 15%;
+	right  : initial;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width : 992px) {
+  .container {
+	margin-left  : auto;
+	margin-right : auto;
+  }
+  
+  .section__title {
+	font-size     : $h1-font-size;
+	margin-bottom : 4.8rem;
+  }
+  
+  .home__content {
+	gap         : 4.8rem;
+	padding-top : 14.4rem;
+  }
+  
+  .home__group {
+	padding-top : 0;
+  }
+  
+  .home__img {
+	height    : 400px;
+	transform : translateY(-4.8rem);
+  }
+  
+  .home__indicator {
+	bottom : 15%;
+	left   : 45%;
+	right  : initial;
+	top    : initial;
+	
+	&::after {
+	  height : 75px;
+	  top    : 0;
+	}
+  }
+  
+  .home__details-img {
+	bottom : 0;
+	right  : 58%;
+  }
+  
+  .home__title {
+	margin-bottom : $mb-1-5;
+  }
+  
+  .home__description {
+	margin-bottom : $mb-2-5;
+	padding-right : 3.2rem;
+  }
+  
+  .category__container {
+	column-gap : 12.8rem;
+  }
+  
+  .category__img {
+	width : 200px;
+  }
+  
+  .about__img {
+	width : 350px;
+  }
+  
+  .about__description {
+	padding-right : 3.2rem;
+  }
+  
+  .trick__container {
+	gap : 5.6rem;
+  }
+  
+  .trick__content {
+	border-radius : 2.4rem;
+  }
+  
+  .trick__img {
+	width : 110px;
+  }
+  
+  .trick__title {
+	font-size : $h3-font-size;
+  }
+  
+  .discount__container {
+	column-gap : 11.2rem;
+  }
+  
+  .new__content {
+	border-radius : 1.6rem;
+	padding       : 3.2rem 0;
+	width         : 310px;
+  }
+  
+  .new__img {
+	width : 150px;
+  }
+  
+  .new__img,
+  .new__subtitle {
+	margin-bottom : $mb-1;
+  }
+  
+  .new__title {
+	font-size : $h3-font-size;
+  }
+  
+  .footer__copy {
+	margin-top : 9.6rem;
+  }
+}
+
+@media screen and (min-width : 1200px) {
+  .home__img {
+	height : 420px;
+  }
+  
+  .swiper-pagination {
+	margin-top : $mb-2-5;
+  }
+  
+  .footer__img-one {
+	width : 120px;
+  }
+  
+  .footer__img-two {
+	left  : -3%;
+	top   : 30%;
+	width : 180px;
+  }
+}
