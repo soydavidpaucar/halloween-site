@@ -1,0 +1,18 @@
+.about {
+  &__container {
+	row-gap : 3.2rem;
+  }
+  
+  &__data {
+	text-align : center;
+  }
+  
+  &__description {
+	margin-bottom : $mb-2;
+  }
+  
+  &__img {
+	justify-self : center;
+	width        : 200px;
+  }
+}
