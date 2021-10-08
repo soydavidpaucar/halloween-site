@@ -1,0 +1,59 @@
+.trick {
+  &__container {
+	gap                   : 2.4rem;
+	grid-template-columns : repeat(2, 1fr);
+	padding-top           : 1.6rem;
+  }
+  
+  &__content {
+	background    : $container-color;
+	border-radius : 1.6rem;
+	overflow      : hidden;
+	padding       : 2.4rem 0 1.6rem 0;
+	position      : relative;
+	text-align    : center;
+	
+	&:hover .trick__img {
+	  transform : translateY(-.8rem);
+	}
+	
+	&:hover .trick__button {
+	  right : 0;
+	}
+  }
+  
+  &__img {
+	transition : .3s;
+	width      : 90px;
+  }
+  
+  &__subtitle,
+  &__price {
+	display : block;
+  }
+  
+  &__subtitle {
+	font-size     : $smaller-font-size;
+	margin-bottom : $mb-0-5;
+  }
+  
+  &__title,
+  &__price {
+	color       : $title-color;
+	font-size   : $normal-font-size;
+	font-weight : $font-medium;
+  }
+  
+  &__button {
+	border-radius : .4rem .4rem 1.2rem .4rem;
+	bottom        : 0;
+	display       : inline-flex;
+	padding       : .8rem;
+	position      : absolute;
+	right         : -4.8rem;
+	
+	& svg {
+	  height : 1.6rem;
+	}
+  }
+}
