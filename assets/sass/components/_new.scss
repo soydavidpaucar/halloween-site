@@ -1,0 +1,82 @@
+.new {
+  &__container {
+	padding-top : 1.6rem;
+  }
+  
+  &__img {
+	margin-bottom : $mb-0-5;
+	transition    : .3s;
+	width         : 120px;
+  }
+  
+  &__content {
+	background    : $container-color;
+	border-radius : 1.2rem;
+	overflow      : hidden;
+	padding       : 3.2rem 0 2.4rem 0;
+	position      : relative;
+	text-align    : center;
+	width         : 242px;
+	
+	&:hover .new__img {
+	  transform : translateY(-.8rem);
+	}
+	
+	&:hover .new__button {
+	  right : 0;
+	}
+  }
+  
+  &__tag {
+	background    : $first-color;
+	border-radius : .4rem;
+	color         : $title-color;
+	font-size     : $small-font-size;
+	left          : 8%;
+	padding       : .4rem .8rem;
+	position      : absolute;
+	top           : 8%;
+  }
+  
+  &__title {
+	font-size   : $normal-font-size;
+	font-weight : $font-medium;
+  }
+  
+  &__subtitle {
+	display       : block;
+	font-size     : $small-font-size;
+	margin-bottom : $mb-0-5;
+  }
+  
+  &__prices {
+	align-items : center;
+	column-gap  : .8rem;
+	display     : inline-flex;
+  }
+  
+  &__price {
+	color       : $title-color;
+	font-weight : $font-medium;
+  }
+  
+  &__discount {
+	color           : $first-color;
+	font-size       : $smaller-font-size;
+	font-weight     : $font-medium;
+	text-decoration : line-through;
+  }
+  
+  &__button {
+	border-radius : .4rem .4rem 1.2rem .4rem;
+	bottom        : 0;
+	display       : inline-flex;
+	padding       : .8rem;
+	position      : absolute;
+	right         : -4.8rem;
+	
+	& svg {
+	  height : 1.6rem;
+	}
+  }
+}
