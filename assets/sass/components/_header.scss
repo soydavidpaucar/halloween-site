@@ -95,3 +95,19 @@
   background : $container-color;
   transition : .3s;
 }
+
+/* Active Link */
+.active-link {
+  position : relative;
+  
+  &::before {
+	background-color : $title-color;
+	border-radius    : 50%;
+	bottom           : -1.2rem;
+	content          : "";
+	height           : 5px;
+	left             : 45%;
+	position         : absolute;
+	width            : 5px;
+  }
+}
